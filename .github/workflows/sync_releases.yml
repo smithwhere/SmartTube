@@ -72,7 +72,7 @@ jobs:
             const upstreamReleases = await github.rest.repos.listReleases({
               owner: upstreamOwner,
               repo: upstreamRepo,
-              per_page: 3
+              per_page: 6
             });
 
             console.log("正在检查目标仓库已有的 Releases...");
