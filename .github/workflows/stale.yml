@@ -1,9 +1,7 @@
 name: "Close stale issues"
 on:
-  workflow_dispatch:
-    branches:
-    - master
-     
+  workflow_call:
+
 jobs:
   stale:
     runs-on: ubuntu-latest
